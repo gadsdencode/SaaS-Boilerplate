@@ -7,7 +7,7 @@ import * as Sentry from '@sentry/nextjs';
 
 Sentry.init({
   // FIXME: Add your Sentry DSN
-  // dsn: '___DSN___',
+  dsn: 'https://af08f5522750fb710490a1f87ff5ade6@o4507078728810496.ingest.us.sentry.io/4507078732021760',
 
   // Enable Spotlight in development
   spotlight: process.env.NODE_ENV === 'development',
